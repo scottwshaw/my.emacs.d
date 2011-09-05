@@ -30,7 +30,7 @@
        [(3 20)
 	nil "Authoring and publishing tool" tar])
  (org .
-      [(20110812)
+      [(20110826)
        nil "Outline-based notes management and organizer" tar])
  (rainbow-mode .
 	       [(0 1)
@@ -47,3 +47,4 @@
  (windresize .
 	     [(0 1)
 	      nil "Resize windows interactively" single]))
+
