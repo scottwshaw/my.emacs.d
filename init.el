@@ -56,6 +56,7 @@
 (autoload 'fsharp-mode "fsharp" "Major mode for editing F# code." t)
 (autoload 'run-fsharp "inf-fsharp" "Run an inferior F# process." t)
 
+;;; Markdown mode stuff
 (custom-set-variables
   ;; custom-set-variables was added by Custom.
   ;; If you edit it by hand, you could mess it up, so be careful.
@@ -69,3 +70,7 @@
   ;; If there is more than one, they won't work right.
  )
 (setq auto-mode-alist (cons '("\\.md" . markdown-mode) auto-mode-alist))
+
+;;; Wordcount mode
+(setq load-path (cons "~/.emacs.d/word-count" load-path))
+(require 'word-count)
