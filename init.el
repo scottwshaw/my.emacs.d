@@ -58,7 +58,8 @@
 
 ;;; Markdown mode stuff
 (custom-set-variables
-  ;; custom-set-variables was added by Custom.
+
+ ;; custom-set-variables was added by Custom.
   ;; If you edit it by hand, you could mess it up, so be careful.
   ;; Your init file should contain only one such instance.
   ;; If there is more than one, they won't work right.
@@ -74,3 +75,8 @@
 ;;; Wordcount mode
 (setq load-path (cons "~/.emacs.d/word-count" load-path))
 (require 'word-count)
+
+;;; ess mode
+;;; Wordcount mode
+(setq load-path (cons "~/.emacs.d/ess-5.14/lisp" load-path))
+(require 'ess-site)
